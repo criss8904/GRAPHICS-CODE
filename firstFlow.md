@@ -1,5 +1,5 @@
 ```mermaid
-[graph TD
+graph TD;
     %% Estilos
     classDef actor fill:#f9f9f9,stroke:#333,stroke-width:2px;
     classDef process fill:#e1f5fe,stroke:#01579b,stroke-width:1px;
@@ -27,5 +27,5 @@
     %% Asignación de clases
     class S1,R1 process;
     class C1,G1,C2,G2 decision;
-    class Fin final;]
+    class Fin final;
 ```
