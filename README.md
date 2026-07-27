@@ -22,7 +22,7 @@ flowchart TD
     %% 2. RELACIÓN DE ESTUDIO
     %% ===========================
     subgraph RelacionEstudio["2️⃣ Relación de Estudio"]
-        K[Estudio] --> L[Agente(s)]
+        K[Estudio] --> L[Agentes]
         K --> M[Propiedades]
         K --> N[Categorías]
         K --> O[Tipos de Venta]
@@ -54,4 +54,5 @@ flowchart TD
         N3["• Generar Órdenes de Compra"]
         N4["• Registrar Adendums y Renovaciones"]
     end
+
 ```
