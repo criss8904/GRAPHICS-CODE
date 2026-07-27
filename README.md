@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     %% ===========================
     %% 1. FLUJO GENERAL DEL CONTRATO
@@ -53,3 +54,4 @@ flowchart TD
         N3["• Generar Órdenes de Compra"]
         N4["• Registrar Adendums y Renovaciones"]
     end
+```
