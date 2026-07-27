@@ -1,8 +1,6 @@
 ```mermaid
 flowchart TD
-    %% ===========================
-    %% 1. FLUJO GENERAL DEL CONTRATO
-    %% ===========================
+  
     subgraph FlujoGeneral["1️⃣ Flujo General del Contrato"]
         A[Inicio] --> B[Seleccionar Estudio]
         B --> C[Definir Parámetros]
@@ -16,16 +14,6 @@ flowchart TD
         F -->|No| H[Revisar Condiciones]
         G --> I[Registro y Seguimiento]
         I --> J[Fin]
-    end
-
-    %% ===========================
-    %% 2. RELACIÓN DE ESTUDIO
-    %% ===========================
-    subgraph RelacionEstudio["2️⃣ Relación de Estudio"]
-        K[Estudio] --> L[Agentes]
-        K --> M[Propiedades]
-        K --> N[Categorías]
-        K --> O[Tipos de Venta]
     end
 
     %% ===========================
